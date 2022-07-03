@@ -1,0 +1,28 @@
+*{
+    background-color: chartreuse;
+}
+div.red{
+    display: flex;
+    border:2px solid blue;
+}
+.red div{
+    padding:10px;
+    flex-grow: 1;
+    font-size: 15px;
+    margin:3px;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: chocolate;
+    
+}
+div.black{
+    display: flex;
+    padding:0px;
+    
+
+}
+.black div{
+    border-color: aquamarine;
+    
+    background-color: black;
+}
